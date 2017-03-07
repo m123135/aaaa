@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/movie/movie",
+    "pages/news/news"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#405f80",
+    "navigationBarTitleText": "光与影",
+    "navigationBarTextStyle":"white"
+  },
+ "tabBar":{
+    "selectedColor":"#1f4ba5",
+    "color":"#707070",
+    "backgroundColor":"#e5e5e5",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath":"pages/news/news",
+      "text": "阅读",
+      "iconPath": "/images/icons/yuedu.png",
+      "selectedIconPath":"/images/icons/yuedu_hl.png"
+    },
+    {
+      "pagePath":"pages/movie/movie",
+      "text":"电影",
+      "iconPath":"/images/icons/dianying.png",
+      "selectedIconPath":"/images/icons/dianying_hl.png"
+    }
+    ]
+  }
+}
